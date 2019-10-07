@@ -11,9 +11,9 @@ rule makeblastdb:
     input:
         config["genome"]+".fa"
     output:
-        "{}.nhr".format(config["genome"]),
-        "{}.nin".format(config["genome"]),
-        "{}.nsq".format(config["genome"])
+        "{}.fa.nhr".format(config["genome"]),
+        "{}.fa.nin".format(config["genome"]),
+        "{}.fa.nsq".format(config["genome"])
     shell: "makeblastdb -in {input} -dbtype nucl"
 
 rule blast:

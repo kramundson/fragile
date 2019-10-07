@@ -1,2 +1,2 @@
-genome: "S_lycopersicum_chromosomes.4.00"
-repeat: ["TG200"]
+genome: "potato_dm_v404_all_pm_un_chloro_mito"
+repeat: ["TG200","AT200"]
